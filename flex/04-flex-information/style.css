@@ -24,3 +24,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .container {
+  display: flex;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  width: 200px;
+  margin: 0 52px;
+  flex-wrap: wrap;
+}
+
+.box img {
+  margin: auto;
+}
+.box .text {
+  text-align: center;
+}
+
+
